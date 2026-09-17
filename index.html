@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<!-- Template by html.am -->
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>2 Column Layout &mdash; Right Menu with Header &amp; Footer</title>
+		<style type="text/css">
+		
+			body {
+				margin:0;
+				padding:0;
+				font-family: Sans-Serif;
+				line-height: 1.5em;
+			}
+			
+			header {
+				background: #ccc;
+				height: 100px;
+			}
+			
+			header h1 {
+				margin: 0;
+				padding-top: 15px;
+			}
+			
+			main {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 100%;
+			}
+			
+			nav {
+				padding-bottom: 10010px;
+				margin-bottom: -10000px;
+				float: left;
+				width: 230px;
+				margin-left: -230px;
+				background: #eee;
+			}
+			
+			footer {
+				clear: left;
+				width: 100%;
+				background: #ccc;
+				text-align: center;
+				padding: 4px 0;
+			}
+	
+			#wrapper {
+				overflow: hidden;
+			}
+						
+			#content {
+				margin-right: 230px; /* Same as 'nav' width */
+			}
+			
+			.innertube {
+				margin: 15px; /* Padding for content */
+				margin-top: 0;
+			}
+		
+			p {
+				color: #555;
+			}
+	
+			nav ul {
+				list-style-type:circle;
+				margin: 0;
+				padding: 0;
+			}
+			
+			nav ul a {
+				color: darkgreen;
+				text-decoration: none;
+			}
+
+            .GeneratedMarquee {
+                font-family:'Courier New', monospace;
+                font-size:2em;
+                line-height:1.3em;
+                color:#996600;
+                background-color:#FFFFCC;
+                padding:1.5em;
+
+            }
+		
+		</style>
+		
+		<script type="text/javascript">
+			/* =============================
+			This script generates sample text for the body content. 
+			You can remove this script and any reference to it. 
+			 ============================= */
+			var bodyText=["The smaller your reality, the more convinced you are that you know everything.", "If the facts don't fit the theory, change the facts.", "The past has no power over the present moment.", "This, too, will pass.", "</p><p>You will not be punished for your anger, you will be punished by your anger.", "Peace comes from within. Do not seek it without.", "<h3>Heading</h3><p>The most important moment of your life is now. The most important person in your life is the one you are with now, and the most important activity in your life is the one you are involved with now."]
+			function generateText(sentenceCount){
+				for (var i=0; i<sentenceCount; i++)
+				document.write(bodyText[Math.floor(Math.random()*7)]+" ")
+			}
+		</script>	
+	
+	</head>
+	
+	<body>		
+
+		<header>
+			<div class="innertube">
+				<h1>L3 Engineer NewsLetter</h1>
+                <p>Daily dose of reading for new grad engineers; computer science, finance, and crypto adjacent reads (advice + self-help)</p>
+			</div>
+		</header>
+		
+		<div id="wrapper">
+		
+			<main>
+				<div id="content">
+					<div class="innertube">
+                        <h3>Current</h3>
+						<!-- <p><script>generateText(20)</script></p> -->
+						<ul>
+                            <li><a href="https://aaronfrancis.com/2024/what-if-you-tried-hard-dac139a5">What if you tried hard?</a></li>
+                            <li><a href="https://www.brendangregg.com/blog/2025-05-22/3-years-of-extremely-remote-work.html">3 Years of Extremely Remote Work</a></li>
+                            <li><a href="https://blog.pragmaticengineer.com/distributed-architecture-concepts-i-have-learned-while-building-payments-systems/">Distributed architecture concepts I learned while building a large payments system</a></li>
+                        </ul>
+                        <h3>Reads</h3>
+                        <p>Batch #1</p>
+						<ul>
+                            <li><a href="https://jxnl.co/writing/2024/06/01/advice-to-young-people/">Advice to Young People</a> by Jason Liu</li>
+                            <li><a href="https://susam.net/fizz-buzz-in-css.html">Fizz Buzz in CSS</a> by Susam</li>
+                            <li><a href="https://susam.net/twenty-five-years-of-computing.html">Twenty Five Years of Computing Summarized</a> by Susam</li>
+                            <li><a href="https://susam.net/more-contrast-please.html">More Contrast, Please</a> by Susam</li>
+                            <li><a href="https://jvns.ca/blog/2015/11/21/why-you-should-understand-a-little-about-tcp/">Why you should understand (a little) about TCP</a> by Julia Evans</li>
+                        </ul>
+                        <p>Batch #2</p>
+                        <ul>
+                            <li><a href="https://danliu.xyz/post/hannold-risk-taking">Alex Honnold and Risk Taking</a> by Dan Liu</li>
+                            <li><a href="https://brain.maxxyung.com/blog/personal/decline-of-big-tech">The Decline of Big Tech is a Net Good</a> by Maxx Yung</li>
+                            <li><a href="https://www.susanjfowler.com/blog/2017/2/19/reflecting-on-one-very-strange-year-at-uber">Reflecting on one very, very strange year at Uber</a> by Susan Fowler</li>
+                        </ul>
+					</div>
+				</div>
+			</main>
+			
+			<nav>
+				<div class="innertube">
+					<h3>Finance Newsletter</h3>
+					<ul>
+						<li><a href="https://sherwood.news/snacks/newsletters/">Snacks</a></li>
+						<li><a href="https://newsletterhunt.com/newsletters/money-stuff-by-matt-levine">Matt Levine</a></li>
+						<li><a href="https://stratechery.com/">Stratechery</a></li>
+						<li><a href="https://www.theblock.co/research">The Block</a></li>
+					</ul>
+					<h3>Finds</h3>
+					<ul>
+						<li><a href="https://jvns.ca/blog/2015/12/30/do-the-math-on-your-stock-options/">Things you should know about stock options before negotiating an offer</a></li>
+						<li><a href="https://news.ycombinator.com/news">Hacker newsletter</a></li>
+						<li><a href="https://www.html.am/">HTML Templates</a></li>
+						<li><a href="https://www.reddit.com/r/slatestarcodex/comments/hze13t/who_are_the_matt_levines_of_other_fields/">More newsletters</a></li>
+					</ul>
+				</div>
+                <marquee class="GeneratedMarquee" direction="left" scrollamount="15" behavior="scroll">This is called a marquee tag... pure HTML... pretty cool stuff... lalalablahablablablah</marquee>
+			</nav>
+		
+		</div>
+		
+		<footer>
+			<div class="innertube">
+				<p>MIT License. Copyright 2026</p>
+			</div>
+		</footer>
+	
+	</body>
+</html>
